@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ElectronTabBrowser</title>
+  <link rel="stylesheet" href="css/photon.min.css">
+</head>
+<body>
+  <!--
+  <webview id="mainWebview" src="http://qiita.com" autosize="on"></webview>
+  -->
+
+  <div id="app"></div>
+  <style>
+  body, #app, #app > div {
+    height: 100%;
+  }
+  webview {
+    height: calc(100% - 27px)
+  }
+  </style>
+  <script src="dist/build.js"></script>
+</body>
+</html>
